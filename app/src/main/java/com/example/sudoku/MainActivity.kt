@@ -50,8 +50,8 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-            if (numFilledCells < 10) {
-                Toast.makeText(this, "Please fill in at least 10 cells before solving", Toast.LENGTH_SHORT).show()
+            if (numFilledCells < 17) {
+                Toast.makeText(this, "Please fill in at least 17 cells before solving", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
             if (getSudokuSolution(grid)) {
